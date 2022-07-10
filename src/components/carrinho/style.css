@@ -1,0 +1,50 @@
+.vitrine_carrinho{
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.info_carrinho{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid #4E944F;
+}
+.display_carrinho{
+    width: 65%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin: 0 30px;
+    gap: 10px;
+}
+.carrinho_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    font-size: 20px;
+}
+.carrinho_card > img {
+    width: 110px;
+    height: 110px;
+}
+.carrinho_card > p {
+    width: 400px;
+}
+.carrinho_card > button{
+    height:75px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.carrinho_card > button:hover{
+    background-color: chartreuse;
+}

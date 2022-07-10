@@ -1,0 +1,46 @@
+.vitrine{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+.produto_card{
+    width: 300px;
+    height: 400px;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.produto_card:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+    background-color: #4E944F;
+    box-shadow: 0px 0px 10px black;
+}
+.produto_card > img {
+    width: 300px;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.produto_content{
+    font-family: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 130px;
+}
+.produto_content > button{
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.produto_content > button:hover{
+    background-color: chartreuse;
+    transition: 0.3s;
+}
